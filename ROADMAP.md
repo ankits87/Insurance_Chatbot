@@ -30,4 +30,10 @@ Modules build in dependency order. Each module gets a short design write-up shar
 
 ## Production deployment
 
-Ready to deploy Phase 1 (all core tasks done, polish complete). Plan: Render (backend) + Vercel (frontend) free tiers — see Learning.md "Hosting/deployment" decision.
+- [x] **Deployed 2026-06-28** — Render (backend) + Vercel (frontend) free tiers.
+  - Frontend: https://insurance-chatbot-nine.vercel.app/
+  - Backend: https://insurance-chatbot-4ktn.onrender.com
+  - GitHub: https://github.com/ankits87/Insurance_Chatbot.git
+  - Embeddings: Nomic Atlas API (`api-atlas.nomic.ai`) — HuggingFace Inference API was tried first but `nomic-embed-text-v1` requires `trust_remote_code=True` which HF blocks server-side.
+  - Render env vars required: `GROQ_API_KEY`, `NOMIC_API_KEY`, `FRONTEND_ORIGIN`
+  - Known limitations: Render free tier cold-starts after 15 min idle; SQLite chat history is ephemeral (lost on redeploy); new document ingestion in production doesn't persist across redeploys (re-commit `chroma_db/` and redeploy to make permanent).
