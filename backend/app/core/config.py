@@ -29,4 +29,4 @@ QUERY_REWRITE_HISTORY_TURNS = 2
 RERANK_MODEL = GROQ_MODEL
 RERANK_SPREAD_THRESHOLD = 0.035
 
-FRONTEND_ORIGIN = os.environ.get("FRONTEND_ORIGIN", "http://localhost:3000")
+FRONTEND_ORIGIN = os.environ.get("FRONTEND_ORIGIN", "http://localhost:3000").rstrip("/")

@@ -30,4 +30,4 @@ app.include_router(ingest_router)
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok"}
+    return {"status": "ok", "allowed_origin": FRONTEND_ORIGIN}
