@@ -1,0 +1,228 @@
+[
+  {
+    "id": "cosmetic-exclusion-global-health",
+    "query": "What is excluded under cosmetic treatment in the Global Health policy?",
+    "generated_answer": "Expenses for cosmetic or plastic surgery or any treatment to change appearance are excluded, unless it is for reconstruction following an Accident, Burn(s), or Cancer, or as part of Medically Necessary Treatment to remove a direct and immediate health risk to the insured, and certified by the attending Medical Practitioner. Additionally, OPD Expenses for any Cosmetic or routine preventive health check-ups are also not covered.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer accurately conveys the same information as the expected answer, with minor wording differences that do not alter the substance of the exclusions under cosmetic treatment in the Global Health policy.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "cosmetic-exclusion-health-infinity",
+    "query": "What is excluded under cosmetic treatment in the Infinity policy?",
+    "generated_answer": "Under the Indusind Health Infinity policy, expenses for cosmetic or plastic surgery or any treatment to change appearance are excluded, unless it is for reconstruction following an Accident, Burn(s), or Cancer, or as part of Medically Necessary Treatment to remove a direct and immediate health risk to the insured.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "partial",
+      "reason": "The generated answer is missing the part about OPD expenses for cosmetic or routine preventive health check-ups not being covered, but is otherwise consistent with the expected answer's substance.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "cosmetic-exclusion-health-gain",
+    "query": "What is excluded under cosmetic treatment in the Health Gain policy?",
+    "generated_answer": "Under the Indusind Health Gain policy, expenses for cosmetic or plastic surgery or any treatment to change appearance are excluded, unless it is for reconstruction following an Accident, Burn(s), or Cancer, or as part of Medically Necessary Treatment to remove a direct and immediate health risk to the insured, and certified by the attending Medical Practitioner.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer is almost identical to the expected answer, with only minor additions that do not change the substance of the information.",
+      "must_include_ok": true,
+      "must_include_hits": [
+        "certified"
+      ]
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "preexisting-waiting-period-global-health",
+    "query": "What is the waiting period for pre-existing diseases under the Global Health policy?",
+    "generated_answer": "The waiting period for pre-existing diseases under the Global Health policy is 36 months. However, the policyholder can opt to change this waiting period to 24 months or 12 months, if allowed by the company and mentioned in the Schedule.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 2,
+      "hits": 2,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 2,
+      "hits": 2,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "partial",
+      "reason": "The generated answer misses the detail about the waiting period potentially being reduced based on prior continuous coverage without a break.",
+      "must_include_ok": true,
+      "must_include_hits": [
+        "36 months"
+      ]
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "opd-coverage-health-infinity",
+    "query": "What is covered under OPD treatment in the Infinity plan?",
+    "generated_answer": "The Infinity plan covers the following under OPD treatment: \n\nFor Plan A: \n- OPD consultations with Super Specialists \n- Diagnostic Tests \n- Prescription drugs expenses, limited to 35% of the OPD limit.\n\nFor Plan B: \n- OPD consultations with Medical Practitioners \n- Diagnostic Tests \n- Prescription drugs expenses, limited to 35% of the OPD limit \n- Dental OPD, including Dental Consultation, Dental Treatment/Surgery, and Periodontics \n- Surgical Treatments for minor outpatient procedures.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer provides detailed information that is factually consistent with the expected answer's substance, covering consultations, diagnostic tests, prescription drugs, and additional benefits for Plan B.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "room-rent-limit-health-gain",
+    "query": "What is the room rent limit under the Health Gain policy?",
+    "generated_answer": "The room rent limit under the Health Gain policy is a Single Private A.C room.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "partial",
+      "reason": "The generated answer only mentions the room type for one plan tier, whereas the expected answer provides information for multiple plan tiers.",
+      "must_include_ok": true,
+      "must_include_hits": [
+        "Single Private A.C"
+      ]
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "off-topic-pasta-refusal",
+    "query": "What's the best way to cook pasta?",
+    "generated_answer": "The context doesn't contain the answer to that question. The provided text is about insurance policy documents and doesn't mention cooking pasta.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer accurately declines to answer and states that the provided text doesn't contain information about cooking pasta.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "gibberish-refusal",
+    "query": "zxqwer asdfgh poiuyt mnbvcx",
+    "generated_answer": "The context doesn't contain the answer to your question. Please provide a specific question related to the insurance policy documents.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer correctly declines to answer and requests a specific question, consistent with recognizing the input as not a real question.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  }
+]

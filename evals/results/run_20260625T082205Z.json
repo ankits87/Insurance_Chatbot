@@ -1,0 +1,154 @@
+[
+  {
+    "id": "cosmetic-exclusion-global-health",
+    "query": "What is excluded under cosmetic treatment in the Global Health policy?",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99452, Requested 1312. Please try again in 11m0.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "id": "cosmetic-exclusion-health-infinity",
+    "query": "What is excluded under cosmetic treatment in the Infinity policy?",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99452, Requested 1210. Please try again in 9m31.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "id": "cosmetic-exclusion-health-gain",
+    "query": "What is excluded under cosmetic treatment in the Health Gain policy?",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99452, Requested 1242. Please try again in 9m59.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "id": "preexisting-waiting-period-global-health",
+    "query": "What is the waiting period for pre-existing diseases under the Global Health policy?",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99451, Requested 1064. Please try again in 7m24.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "id": "opd-coverage-health-infinity",
+    "query": "What is covered under OPD treatment in the Infinity plan?",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99451, Requested 1637. Please try again in 15m40.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "id": "room-rent-limit-health-gain",
+    "query": "What is the room rent limit under the Health Gain policy?",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99451, Requested 1077. Please try again in 7m36.192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "id": "off-topic-pasta-refusal",
+    "query": "What's the best way to cook pasta?",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99450, Requested 1136. Please try again in 8m26.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "id": "gibberish-refusal",
+    "query": "zxqwer asdfgh poiuyt mnbvcx",
+    "generated_answer": "",
+    "grounded": false,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "error"
+    },
+    "hallucination": {
+      "hallucinated": null
+    },
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv641dr5ebx8ad1eksqxkcy8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99450, Requested 1337. Please try again in 11m19.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  }
+]

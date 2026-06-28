@@ -1,0 +1,11 @@
+chromadb
+httpx
+tiktoken
+groq
+python-dotenv
+fastapi
+uvicorn[standard]
+pdfplumber
+mammoth
+python-multipart
+rank_bm25

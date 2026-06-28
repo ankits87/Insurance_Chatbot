@@ -1,0 +1,21 @@
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.env
+backend/chat_history.db
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env*
+frontend/.vercel/
+
+# Data — keep .md snapshots, skip raw PDFs if large
+data/*.pdf
+data/*.docx
+
+# Logs and Claude Code internals
+*.log
+.claude/

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "cosmetic-exclusion-global-health",
+    "query": "What is excluded under cosmetic treatment in the Global Health policy?",
+    "generated_answer": "Under the Indusind Global Health policy, expenses for cosmetic or plastic surgery or any treatment to change appearance are excluded, unless for reconstruction following an Accident, Burn(s) or Cancer or as part of Medically Necessary Treatment to remove a direct and immediate health risk to the insured.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer is nearly identical to the expected answer and includes all key exclusions and exceptions for cosmetic treatment in the Global Health policy.",
+      "must_include_ok": false,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "cosmetic-exclusion-health-infinity",
+    "query": "What is excluded under cosmetic treatment in the Infinity policy?",
+    "generated_answer": "Under the Indusind Health Infinity policy, expenses for cosmetic or plastic surgery or any treatment to change appearance are excluded, unless it is for reconstruction following an Accident, Burn(s), or Cancer, or as part of Medically Necessary Treatment to remove a direct and immediate health risk to the insured. Additionally, OPD Expenses for any Cosmetic/routine preventive health check-ups are also not covered.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "partial",
+      "reason": "The generated answer includes the main exclusion details but also adds an extra point about OPD Expenses for cosmetic/routine preventive health check-ups that is not present in the expected answer.",
+      "must_include_ok": false,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "cosmetic-exclusion-health-gain",
+    "query": "What is excluded under cosmetic treatment in the Health Gain policy?",
+    "generated_answer": "Under the Indusind Health Gain policy, expenses for cosmetic or plastic surgery, or any treatment to change appearance, are excluded unless it is for reconstruction following an Accident, Burn(s), or Cancer, or as part of Medically Necessary Treatment to remove a direct and immediate health risk to the insured, as certified by the attending Medical Practitioner (SECTION-4 EXCLUSIONS > 4.1.8). Additionally, treatment carried out for cosmetic reasons is not covered under the benefit for Hospitalization Expenses for correction of eyesight due to refractive error (Section-6.1).",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "partial",
+      "reason": "The generated answer includes the main points from the expected answer but also adds extra information not present in the expected answer, potentially introducing unrelated details.",
+      "must_include_ok": false,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": true,
+      "unsupported_claims": [
+        "SECTION-4 EXCLUSIONS > 4.1.8",
+        "Section-6.1"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "preexisting-waiting-period-global-health",
+    "query": "What is the waiting period for pre-existing diseases under the Global Health policy?",
+    "generated_answer": "The waiting period for pre-existing diseases under the Indusind Global Health policy is 36 months, but it can be changed to 24 months or 12 months under certain conditions as mentioned in SECTION-3 SCOPE OF COVER > 3.3.3.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 2,
+      "hits": 2,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 2,
+      "hits": 2,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer accurately conveys the same waiting period information as the expected answer, though it provides additional detail about the policy specifics.",
+      "must_include_ok": true,
+      "must_include_hits": [
+        "36 months"
+      ]
+    },
+    "hallucination": {
+      "hallucinated": true,
+      "unsupported_claims": [
+        "SECTION-3 SCOPE OF COVER > 3.3.3"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "opd-coverage-health-infinity",
+    "query": "What is covered under OPD treatment in the Infinity plan?",
+    "generated_answer": "Under the Indusind Health Infinity plan, OPD treatment covers vary by plan:\n\nFor Plan A: \n- OPD Consultations with 10 Super Specialists\n- Diagnostic Tests\n- Prescription Drugs: 35% of OPD limit\n\nFor Plan B: \n- OPD consultations with Medical Practitioners\n- Diagnostic Tests\n- Prescription Drugs: 35% of OPD limit\n- Dental OPD (including Dental Consultation, Dental Treatment/Surgery, and Periodontics)\n- Surgical Treatments (minor surgical procedures)",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer provides more detailed information but is factually consistent with the expected answer's substance regarding OPD treatment coverage in the Infinity plan.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "room-rent-limit-health-gain",
+    "query": "What is the room rent limit under the Health Gain policy?",
+    "generated_answer": "The room rent limit under the Indusind Health Gain policy is a Single Private A.C Room (for Plus Plan) and Actuals (for Power and Prime Plans).",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer does not provide a specific figure and instead provides a descriptive answer that aligns with the expected answer's instruction to not fabricate a number.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "off-topic-pasta-refusal",
+    "query": "What's the best way to cook pasta?",
+    "generated_answer": "The context doesn't contain the answer to that question.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer accurately reflects that the necessary information is not available, aligning with the expected response to decline answering.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "gibberish-refusal",
+    "query": "zxqwer asdfgh poiuyt mnbvcx",
+    "generated_answer": "I don't see a question related to the context provided about insurance policy documents. The text appears to be a jumbled collection of keys and doesn't form a coherent question. If you have a specific question about the Indusind Health Infinity or Indusind Health Gain policy, I'll do my best to help.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer recognizes the input as not a real question and declines to answer, aligning with the expected answer's substance.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "id": "cosmetic-exclusion-global-health",
+    "query": "What is excluded under cosmetic treatment in the Global Health policy?",
+    "generated_answer": "According to the provided context, Cosmetic Surgery/Treatment is defined as \"Surgery/ treatment which is primarily done for the enhancement of appearance through surgical and medical techniques.\" \n\nHowever, the context does not explicitly state what is excluded under cosmetic treatment in the Global Health policy. But it does mention that \"OPD Expenses for any Cosmetic / routine preventive health check-ups / dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances shall not be covered\" under Out-patient Treatment. \n\nIt also defines Cosmetic Surgery/Treatment but does not provide an exclusion list specifically for it.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 0,
+      "recall": 0.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 0,
+      "recall": 0.0
+    },
+    "accuracy": {
+      "verdict": "incorrect",
+      "reason": "The generated answer does not provide the specific exclusions under cosmetic treatment in the Global Health policy as stated in the expected answer, instead providing unrelated information about out-patient treatment and definitions.",
+      "must_include_ok": false,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": true,
+      "unsupported_claims": [
+        "what is excluded under cosmetic treatment in the Global Health policy"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "cosmetic-exclusion-health-infinity",
+    "query": "What is excluded under cosmetic treatment in the Infinity policy?",
+    "generated_answer": "The context doesn't contain the answer to what is excluded under cosmetic treatment in the Infinity policy. It only mentions that \"cosmetic treatments\" are defined in Section 2.2, but the specific definition is not provided. Additionally, it mentions that OPD Expenses for any Cosmetic/routine preventive health check-ups/dietary supplements and substances that can be purchased without prescription are not covered, but it does not provide a comprehensive list of exclusions under cosmetic treatment.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 0,
+      "recall": 0.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 0,
+      "recall": 0.0
+    },
+    "accuracy": {
+      "verdict": "incorrect",
+      "reason": "The generated answer fails to provide the specific exclusions under cosmetic treatment in the Infinity policy, instead stating that the context does not contain the answer.",
+      "must_include_ok": false,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": true,
+      "unsupported_claims": [
+        "The context doesn't contain the answer to what is excluded under cosmetic treatment in the Infinity policy",
+        "it mentions that 'cosmetic treatments' are defined in Section 2.2",
+        "a comprehensive list of exclusions under cosmetic treatment"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "cosmetic-exclusion-health-gain",
+    "query": "What is excluded under cosmetic treatment in the Health Gain policy?",
+    "generated_answer": "Expenses for cosmetic or plastic surgery or any treatment to change appearance are excluded, unless it is for reconstruction following an Accident, Burn(s), or Cancer, or as part of Medically Necessary Treatment to remove a direct and immediate health risk to the insured, and certified by the attending Medical Practitioner.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer is nearly identical to the expected answer, with only a minor punctuation difference that does not affect the substance of the answer.",
+      "must_include_ok": false,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "preexisting-waiting-period-global-health",
+    "query": "What is the waiting period for pre-existing diseases under the Global Health policy?",
+    "generated_answer": "The waiting period for pre-existing diseases is 36 months of continuous coverage after the date of inception of the first Policy with the Company. However, the Policyholder can opt to change this waiting period to 24 months or 12 months, subject to it being expressly mentioned in the Schedule.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 2,
+      "hits": 2,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 2,
+      "hits": 2,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer is factually consistent with the expected answer's substance, providing the same waiting period options and conditions.",
+      "must_include_ok": true,
+      "must_include_hits": [
+        "36 months"
+      ]
+    },
+    "hallucination": {
+      "hallucinated": true,
+      "unsupported_claims": [
+        "12 months"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "opd-coverage-health-infinity",
+    "query": "What is covered under OPD treatment in the Infinity plan?",
+    "generated_answer": "The context provides two plans under OPD treatment in the Infinity plan: Plan A and Plan B.\n\nPlan A covers:\n- OPD consultations with 10 Super Specialists\n- Diagnostic Tests\n- Prescription Drugs: 35% of OPD limit\n\nPlan B covers:\n- OPD consultations with Medical Practitioners\n- Diagnostic Tests\n- Prescription Drugs: 35% of OPD limit\n- Dental OPD (including Dental Consultation, Dental Treatment/Surgery, and Periodontics)\n- Surgical Treatments \n\nNote that the specific coverage and limits may vary depending on the chosen plan and OPD limit.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer provides a detailed breakdown of the coverage under both Plan A and Plan B, which is factually consistent with the expected answer's substance.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "room-rent-limit-health-gain",
+    "query": "What is the room rent limit under the Health Gain policy?",
+    "generated_answer": "The context does not contain information about the \"Health Gain policy\". However, it does mention room rent limits for specific plans: \n\n- For the Plus Plan, the room category allowed is Single Private A.C Room.\n- For the Power and Prime Plans, the room rent limit is based on actuals.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "citation": {
+      "applicable": true,
+      "expected_count": 1,
+      "hits": 1,
+      "recall": 1.0
+    },
+    "accuracy": {
+      "verdict": "partial",
+      "reason": "The generated answer acknowledges the lack of information about the Health Gain policy's room rent limit but also provides unrelated details about other plans.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  },
+  {
+    "id": "off-topic-pasta-refusal",
+    "query": "What's the best way to cook pasta?",
+    "generated_answer": "The context provided does not contain information about cooking pasta.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer aligns with the expected answer by stating that the provided context does not contain information about cooking pasta.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": true,
+      "unsupported_claims": [
+        "The context provided does not contain information about cooking pasta."
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": "gibberish-refusal",
+    "query": "zxqwer asdfgh poiuyt mnbvcx",
+    "generated_answer": "The context provided does not contain the answer to the question \"zxqwer asdfgh poiuyt mnbvcx\" as it appears to be a string of random characters.",
+    "grounded": true,
+    "retrieval": {
+      "applicable": false
+    },
+    "citation": {
+      "applicable": false
+    },
+    "accuracy": {
+      "verdict": "correct",
+      "reason": "The generated answer correctly recognizes the input as not being a real question and declines to provide a direct answer, aligning with the expected answer's substance.",
+      "must_include_ok": true,
+      "must_include_hits": []
+    },
+    "hallucination": {
+      "hallucinated": false,
+      "unsupported_claims": []
+    },
+    "error": null
+  }
+]
