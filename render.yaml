@@ -8,7 +8,7 @@ services:
     envVars:
       - key: GROQ_API_KEY
         sync: false
-      - key: HUGGINGFACE_API_KEY
+      - key: NOMIC_API_KEY
         sync: false
       - key: FRONTEND_ORIGIN
         sync: false

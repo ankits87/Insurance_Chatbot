@@ -49,7 +49,7 @@ def chat(payload: ChatRequest) -> ChatResponse:
     try:
         result = answer_question(payload.query, history)
     except (httpx.ConnectError, httpx.HTTPError, ConnectionError) as exc:
-        raise HTTPException(status_code=503, detail="Embedding/vector service unavailable. Is Ollama running?") from exc
+        raise HTTPException(status_code=503, detail="Embedding service unavailable. Please try again shortly.") from exc
     except GroqError as exc:
         raise HTTPException(status_code=502, detail="AI service is busy or unavailable. Please try again.") from exc
     except Exception as exc:

@@ -1,9 +1,9 @@
 import httpx
 
-from app.core.config import HF_EMBED_MODEL, HUGGINGFACE_API_KEY
+from app.core.config import NOMIC_API_KEY
 
-_API_URL = f"https://api-inference.huggingface.co/models/{HF_EMBED_MODEL}"
-_HEADERS = {"Authorization": f"Bearer {HUGGINGFACE_API_KEY}"}
+_API_URL = "https://api-atlas.nomic.ai/v1/embedding/text"
+_HEADERS = {"Authorization": f"Bearer {NOMIC_API_KEY}"}
 _BATCH_SIZE = 16
 
 
@@ -11,17 +11,11 @@ def _embed_batch(texts: list[str]) -> list[list[float]]:
     response = httpx.post(
         _API_URL,
         headers=_HEADERS,
-        json={"inputs": texts, "options": {"wait_for_model": True}},
+        json={"model": "nomic-embed-text-v1", "texts": texts},
         timeout=60.0,
     )
     response.raise_for_status()
-    result = response.json()
-    embeddings = []
-    for item in result:
-        # Normalize: HF returns [float,...] or [[float,...]] depending on model config
-        emb = item[0] if isinstance(item[0], list) else item
-        embeddings.append(emb)
-    return embeddings
+    return response.json()["embeddings"]
 
 
 def _embed(texts: list[str]) -> list[list[float]]:

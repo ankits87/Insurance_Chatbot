@@ -10,8 +10,7 @@ DATA_DIR = BACKEND_DIR.parent / "data"
 CHROMA_DB_DIR = BACKEND_DIR / "chroma_db"
 
 COLLECTION_NAME = "product_docs"
-HF_EMBED_MODEL = "nomic-ai/nomic-embed-text-v1"
-HUGGINGFACE_API_KEY = os.environ.get("HUGGINGFACE_API_KEY", "")
+NOMIC_API_KEY = os.environ.get("NOMIC_API_KEY", "")
 
 CHUNK_MAX_TOKENS = 300
 CHUNK_OVERLAP_TOKENS = 75
